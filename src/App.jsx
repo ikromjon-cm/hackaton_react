@@ -1,3 +1,4 @@
+import AddTocategories from './pages/categories/AddTocategories';
 import AddProduct from './pages/product/AddProduct';
 
 const App = () => {
@@ -45,14 +46,15 @@ const App = () => {
   {
     img:"https://pixelcalculator.com/image/img/vorschau.webp",
     text:"Hats",
-    undertext:"26 items"
+    undertext:"26 iitems"
   },
 ];
 
   return (
     
     <div>
-      <Categories data={data}/>
+      <Categories  data={data}/>
+      <AddTocategories />
     </div>
   );
 }
