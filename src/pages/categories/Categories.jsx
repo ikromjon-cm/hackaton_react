@@ -1,14 +1,15 @@
+import { Link } from 'react-router-dom';
 import "./categories.css"
 const Categories = ({data}) => {
   return <div className='containerAll'>
     <div className="upperdata">
   <h3 className='title'>Categories</h3>
-    <button className='routebtn'>Add Category</button>
+    <button className='routebtn'><Link to={/categories}>Add Category</Link></button>
 </div>
+<div className="wrap">
     {
       data.map((item,index)=>{
         return(
-          <div className="wrap">
 
           <div key={index} className="container">
           
@@ -19,11 +20,11 @@ const Categories = ({data}) => {
             
           
           </div>
-            </div>
         )
       },
     )
-    },
+  },
+  </div>
   </div>;
 };
 

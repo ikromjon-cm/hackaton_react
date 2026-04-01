@@ -1,15 +1,17 @@
 .containerAll{
   padding:30px 40px ;
-
 }
-.upperdata{
+.upperdata{ 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding:0px 100px ;
 }
 .wrap{
-    display: flex;
+  padding:20px 250px;
   flex-wrap: wrap;
+    display: flex;
+    gap: 60px;
 }
 
 .title{
@@ -20,6 +22,7 @@
 .routebtn{
   width: 174px;
   height: 40px;
+  background-color: #1E5EFF;
 }
 .container{
   width: 324px;

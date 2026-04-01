@@ -1,3 +1,4 @@
+import AddTocategories from './pages/categories/AddTocategories';
 import AddProduct from './pages/product/AddProduct';
 
 const App = () => {
@@ -52,7 +53,8 @@ const App = () => {
   return (
     
     <div>
-      <Categories data={data}/>
+      <Categories  data={data}/>
+      <AddTocategories />
     </div>
   );
 }
