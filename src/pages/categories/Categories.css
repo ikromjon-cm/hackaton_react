@@ -1,0 +1,32 @@
+.containerAll{
+  padding:30px 40px ;
+
+}
+.upperdata{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrap{
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: 700;
+  color: #131523;
+}
+.routebtn{
+  width: 174px;
+  height: 40px;
+}
+.container{
+  width: 324px;
+  height: 350px;
+
+}
+.img{
+  width: 350px;
+  height: 240px;
+}
