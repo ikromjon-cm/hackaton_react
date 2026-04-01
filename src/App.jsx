@@ -1,5 +1,4 @@
-import React from 'react';
-import Categories from './pages/categories/Categories';
+import AddProduct from './pages/product/AddProduct';
 
 const App = () => {
    const data = [
