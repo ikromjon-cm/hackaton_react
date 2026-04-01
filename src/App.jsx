@@ -1,9 +1,9 @@
-import React from 'react';
+import AddProduct from './pages/product/AddProduct';
 
 const App = () => {
   return (
     <div>
-      
+      <AddProduct />
     </div>
   );
 }
