@@ -46,7 +46,7 @@ const App = () => {
   {
     img:"https://pixelcalculator.com/image/img/vorschau.webp",
     text:"Hats",
-    undertext:"26 items"
+    undertext:"26 iitems"
   },
 ];
 
